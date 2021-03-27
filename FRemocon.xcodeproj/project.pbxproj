@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0153A7882C6384E05A268D32 /* ConfigSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD54962FAD025C972E5F38 /* ConfigSerializable.swift */; };
+		0E0A3C0634891E9D750214FE /* dummyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EE66B73BBFF2A90689C4FC /* dummyInfo.plist */; };
+		1282A8DA9DFA079EF1B45DE3 /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129B70C3FA4DAA1873DE40F /* ConfigKeys.swift */; };
+		176824C0FE2233EFB11BA61F /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD119059DDBB532372DB7E1 /* Animal.swift */; };
+		1960ED6474CBAD75B083723F /* FRemocon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D89C12C02F87469E49D0F8D /* FRemocon.framework */; };
+		19C44D0ADAC620F0CF6F722B /* FRemocon+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C791F6F6CCA722A174D181FF /* FRemocon+Subscripts.swift */; };
+		1DF6B6C47A83B5CB012626BE /* FRemoconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920433DE03907B0D1A348282 /* FRemoconTests.swift */; };
+		1E76536115F1AE308F5C746B /* FRemocon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C066089D8FFED67BA8FA855 /* FRemocon.swift */; };
+		1E9E7B2CADDCCC6B0E46C953 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBE6FAAB695CADA251C6EA /* OptionalType.swift */; };
+		1F263ACB603527523C9A2762 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693A6C2545BEDAEDF292E910 /* Number.swift */; };
+		20B809B72A5A5E2FDD5C3C3D /* TestConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049C505E2BF677D60047E /* TestConfigKeys.swift */; };
+		25B832980E116CB71C14FF58 /* TestConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049C505E2BF677D60047E /* TestConfigKeys.swift */; };
+		2B2BE76F35C3B3C316E6B280 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = BAFC7C45133F28CD5A13726B /* FirebaseRemoteConfig */; };
+		2BDC2DD5F82198ED0AA49170 /* ConfigBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA4078C7DD657BDBFA288B /* ConfigBridge.swift */; };
+		2EED08C0CF5DEE149DB8679D /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693A6C2545BEDAEDF292E910 /* Number.swift */; };
+		39B574A2918DAE9C5DF4CDFD /* FRemocon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53991A0EB8CA283C5DB7F27D /* FRemocon.framework */; };
+		4777B23DB3F80E52732974DC /* ConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E504149EBAA0F957FD04D70 /* ConfigKey.swift */; };
+		482FA8B24F4C45BA7782672A /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBE6FAAB695CADA251C6EA /* OptionalType.swift */; };
+		4C810E5898485F49F00EA038 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBE6FAAB695CADA251C6EA /* OptionalType.swift */; };
+		5343BC76D6F2268F1B98A582 /* ConfigBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA4078C7DD657BDBFA288B /* ConfigBridge.swift */; };
+		550AA2E47A441D24423DC001 /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129B70C3FA4DAA1873DE40F /* ConfigKeys.swift */; };
+		5592B0511582797F30420F73 /* FRemocon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C066089D8FFED67BA8FA855 /* FRemocon.swift */; };
+		5FFD9F7C5B51C91091FF7724 /* ConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E504149EBAA0F957FD04D70 /* ConfigKey.swift */; };
+		6625B39A82650DC012BF0F63 /* FirebaseSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5705DC09699A2922BE80F725 /* FirebaseSetUp.swift */; };
+		6638559DACD79155A04A39E5 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = A0458043291D6D198A8584FD /* FirebaseRemoteConfig */; };
+		7018775A13E32CFB94A285FE /* dummyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EE66B73BBFF2A90689C4FC /* dummyInfo.plist */; };
+		76CDCA6DA50DCA2BA89A0D81 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4EBA841E193373BBEE9055 /* Fruit.swift */; };
+		8028AF85176338E15192FC18 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4EBA841E193373BBEE9055 /* Fruit.swift */; };
+		83BE98D75F1C58E0962D7250 /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129B70C3FA4DAA1873DE40F /* ConfigKeys.swift */; };
+		83D90ECB76984A721DE23E22 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD119059DDBB532372DB7E1 /* Animal.swift */; };
+		8F6CBA8DA3BF65297957B824 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD119059DDBB532372DB7E1 /* Animal.swift */; };
+		91D796DACAB3846BCC63190D /* ConfigBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA4078C7DD657BDBFA288B /* ConfigBridge.swift */; };
+		92072681237120A79D43B97D /* FRemoconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920433DE03907B0D1A348282 /* FRemoconTests.swift */; };
+		933BCCF44F7D6A867A2B6B14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DD21841B87C8CD57D18BFED /* GoogleService-Info.plist */; };
+		93B1C8EB274D274A2CD16164 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 3FA5F96C04F2A858B007F3C0 /* FirebaseRemoteConfig */; };
+		96748CAE531741775346E0CE /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693A6C2545BEDAEDF292E910 /* Number.swift */; };
+		A1B3B49D574DE167FE41568A /* FRemocon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C066089D8FFED67BA8FA855 /* FRemocon.swift */; };
+		A4E0EA27167FD0539460B7D6 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4EBA841E193373BBEE9055 /* Fruit.swift */; };
+		A688D4E0853CE1FAB289DC06 /* FRemocon+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C791F6F6CCA722A174D181FF /* FRemocon+Subscripts.swift */; };
+		AB6AE6A2757FCA1685253493 /* FRemoconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920433DE03907B0D1A348282 /* FRemoconTests.swift */; };
+		C8C5025633F34C543E10CAB2 /* FirebaseSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5705DC09699A2922BE80F725 /* FirebaseSetUp.swift */; };
+		C99FE7DF865F377AFFC89885 /* ConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E504149EBAA0F957FD04D70 /* ConfigKey.swift */; };
+		C9AE04E7AB272A616288D8DF /* TestConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C049C505E2BF677D60047E /* TestConfigKeys.swift */; };
+		CCF4E2D4078D42D5EE3F26EE /* FirebaseSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5705DC09699A2922BE80F725 /* FirebaseSetUp.swift */; };
+		D456CD4D9DB4A9DFE44D344C /* FRemocon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24DC704C2CD167466F5D728 /* FRemocon.framework */; };
+		DBD4B5B43E541C165A002563 /* dummyInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16EE66B73BBFF2A90689C4FC /* dummyInfo.plist */; };
+		E2AE857CA98DA3AFD781B25D /* ConfigSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD54962FAD025C972E5F38 /* ConfigSerializable.swift */; };
+		E474F9761AB013EA92A61A80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DD21841B87C8CD57D18BFED /* GoogleService-Info.plist */; };
+		E827A1DC4F424AA4A5AAD9D5 /* FRemocon+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C791F6F6CCA722A174D181FF /* FRemocon+Subscripts.swift */; };
+		EC295D418B96EF075A9FE93C /* ConfigSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACD54962FAD025C972E5F38 /* ConfigSerializable.swift */; };
+		F1632AC90ED3FE846837BA86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DD21841B87C8CD57D18BFED /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9642D5F7D6DEA729457B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF5AD32D0188FE6C6D7F2D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B8443D1E06BAA9797F4491;
+			remoteInfo = FRemocon_macOS;
+		};
+		685786D1EF0FC83B6083A17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF5AD32D0188FE6C6D7F2D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8201F84803F9633F9124D5DA;
+			remoteInfo = FRemocon_iOS;
+		};
+		D15C9474015680DD81A81A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF5AD32D0188FE6C6D7F2D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368835AC85C9B62054833492;
+			remoteInfo = FRemocon_tvOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087ABCEB3C8AC2517AE1C6A6 /* FRemoconTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FRemoconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EE66B73BBFF2A90689C4FC /* dummyInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = dummyInfo.plist; sourceTree = "<group>"; };
+		1C066089D8FFED67BA8FA855 /* FRemocon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRemocon.swift; sourceTree = "<group>"; };
+		362FCC8DCF60CB55179529C3 /* FRemoconTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FRemoconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E504149EBAA0F957FD04D70 /* ConfigKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKey.swift; sourceTree = "<group>"; };
+		4129B70C3FA4DAA1873DE40F /* ConfigKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKeys.swift; sourceTree = "<group>"; };
+		53991A0EB8CA283C5DB7F27D /* FRemocon.framework */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = FRemocon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5705DC09699A2922BE80F725 /* FirebaseSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSetUp.swift; sourceTree = "<group>"; };
+		59C049C505E2BF677D60047E /* TestConfigKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfigKeys.swift; sourceTree = "<group>"; };
+		5DD21841B87C8CD57D18BFED /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		693A6C2545BEDAEDF292E910 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		7D89C12C02F87469E49D0F8D /* FRemocon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRemocon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920433DE03907B0D1A348282 /* FRemoconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRemoconTests.swift; sourceTree = "<group>"; };
+		AACD54962FAD025C972E5F38 /* ConfigSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigSerializable.swift; sourceTree = "<group>"; };
+		ABD119059DDBB532372DB7E1 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		AD4EBA841E193373BBEE9055 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		C791F6F6CCA722A174D181FF /* FRemocon+Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FRemocon+Subscripts.swift"; sourceTree = "<group>"; };
+		C8FA4078C7DD657BDBFA288B /* ConfigBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigBridge.swift; sourceTree = "<group>"; };
+		DA53C80DB881F1F934E58B37 /* FRemoconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRemoconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24DC704C2CD167466F5D728 /* FRemocon.framework */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = FRemocon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DBE6FAAB695CADA251C6EA /* OptionalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A302177FAF7A1F3399DE758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1960ED6474CBAD75B083723F /* FRemocon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826FDC76DF63A14619F44C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B574A2918DAE9C5DF4CDFD /* FRemocon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3A8438D71331C370ECD5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B1C8EB274D274A2CD16164 /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A621AF400E863F2426507215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6638559DACD79155A04A39E5 /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9DD526ABF9D108FB25175F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2BE76F35C3B3C316E6B280 /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47D4F37756B4AF6B34ED5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D456CD4D9DB4A9DFE44D344C /* FRemocon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5F9D119767E1D1A4BC83BF /* ConfigBridge */ = {
+			isa = PBXGroup;
+			children = (
+				C8FA4078C7DD657BDBFA288B /* ConfigBridge.swift */,
+			);
+			path = ConfigBridge;
+			sourceTree = "<group>";
+		};
+		1D029CEBB4033F2A95B6D37D /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBE6FAAB695CADA251C6EA /* OptionalType.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		332767C2A1942F40F14D959C = {
+			isa = PBXGroup;
+			children = (
+				579C4F5309A417363E0D980C /* Sources */,
+				4580B1B34B1769B948774933 /* Tests */,
+				A1E51ECEBAC7BF48C863FB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4580B1B34B1769B948774933 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A49201CD7566893EDF55532 /* FRemoconTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5208F96EB7FFBBDFD0E07E95 /* FRemocon */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F9D119767E1D1A4BC83BF /* ConfigBridge */,
+				8808123F638C2A75B851BB34 /* FRemocon */,
+				7BF05C0FFACBC3B9B2537014 /* Key */,
+				1D029CEBB4033F2A95B6D37D /* Optional */,
+				A89F933BACC1DF3BC6AE67C8 /* Serializable */,
+			);
+			path = FRemocon;
+			sourceTree = "<group>";
+		};
+		579C4F5309A417363E0D980C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5208F96EB7FFBBDFD0E07E95 /* FRemocon */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6754C0B4D0E45CB3A4817B9C /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				59C049C505E2BF677D60047E /* TestConfigKeys.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		7BF05C0FFACBC3B9B2537014 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				3E504149EBAA0F957FD04D70 /* ConfigKey.swift */,
+				4129B70C3FA4DAA1873DE40F /* ConfigKeys.swift */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		87EE8D17EDA61F461DD54344 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5705DC09699A2922BE80F725 /* FirebaseSetUp.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8808123F638C2A75B851BB34 /* FRemocon */ = {
+			isa = PBXGroup;
+			children = (
+				1C066089D8FFED67BA8FA855 /* FRemocon.swift */,
+				C791F6F6CCA722A174D181FF /* FRemocon+Subscripts.swift */,
+			);
+			path = FRemocon;
+			sourceTree = "<group>";
+		};
+		8A49201CD7566893EDF55532 /* FRemoconTests */ = {
+			isa = PBXGroup;
+			children = (
+				920433DE03907B0D1A348282 /* FRemoconTests.swift */,
+				87EE8D17EDA61F461DD54344 /* Helper */,
+				6754C0B4D0E45CB3A4817B9C /* Keys */,
+				D28DE5018188CD68E61C685A /* Model */,
+				FB333C998EA01DA113EC450A /* Resources */,
+			);
+			path = FRemoconTests;
+			sourceTree = "<group>";
+		};
+		A1E51ECEBAC7BF48C863FB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24DC704C2CD167466F5D728 /* FRemocon.framework */,
+				7D89C12C02F87469E49D0F8D /* FRemocon.framework */,
+				53991A0EB8CA283C5DB7F27D /* FRemocon.framework */,
+				362FCC8DCF60CB55179529C3 /* FRemoconTests.xctest */,
+				DA53C80DB881F1F934E58B37 /* FRemoconTests.xctest */,
+				087ABCEB3C8AC2517AE1C6A6 /* FRemoconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A89F933BACC1DF3BC6AE67C8 /* Serializable */ = {
+			isa = PBXGroup;
+			children = (
+				AACD54962FAD025C972E5F38 /* ConfigSerializable.swift */,
+			);
+			path = Serializable;
+			sourceTree = "<group>";
+		};
+		D28DE5018188CD68E61C685A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABD119059DDBB532372DB7E1 /* Animal.swift */,
+				AD4EBA841E193373BBEE9055 /* Fruit.swift */,
+				693A6C2545BEDAEDF292E910 /* Number.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB333C998EA01DA113EC450A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16EE66B73BBFF2A90689C4FC /* dummyInfo.plist */,
+				5DD21841B87C8CD57D18BFED /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B8443D1E06BAA9797F4491 /* FRemocon_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074B99B297676BB3FD59789E /* Build configuration list for PBXNativeTarget "FRemocon_macOS" */;
+			buildPhases = (
+				E798D4F1099C832CF229EE2E /* Sources */,
+				8E3A8438D71331C370ECD5A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRemocon_macOS;
+			packageProductDependencies = (
+				3FA5F96C04F2A858B007F3C0 /* FirebaseRemoteConfig */,
+			);
+			productName = FRemocon_macOS;
+			productReference = 7D89C12C02F87469E49D0F8D /* FRemocon.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		368835AC85C9B62054833492 /* FRemocon_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E4D144DC42757DE02EABE2 /* Build configuration list for PBXNativeTarget "FRemocon_tvOS" */;
+			buildPhases = (
+				5431034F60D9A27EF91BA8F7 /* Sources */,
+				A621AF400E863F2426507215 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRemocon_tvOS;
+			packageProductDependencies = (
+				A0458043291D6D198A8584FD /* FirebaseRemoteConfig */,
+			);
+			productName = FRemocon_tvOS;
+			productReference = 53991A0EB8CA283C5DB7F27D /* FRemocon.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		416D050C54D385311A5B028D /* FRemoconTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDD4DFC29F7DF3C6430BCF9 /* Build configuration list for PBXNativeTarget "FRemoconTests_macOS" */;
+			buildPhases = (
+				54DAB836728395F4A268EDD6 /* Sources */,
+				D533E565275EBD4A6AEAA9EC /* Resources */,
+				5A302177FAF7A1F3399DE758 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A20B00013E36E8B2E82E81 /* PBXTargetDependency */,
+			);
+			name = FRemoconTests_macOS;
+			productName = FRemoconTests_macOS;
+			productReference = DA53C80DB881F1F934E58B37 /* FRemoconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5342FC74210256EB25271419 /* FRemoconTests_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356C45857983D9CFA1274FCB /* Build configuration list for PBXNativeTarget "FRemoconTests_tvOS" */;
+			buildPhases = (
+				3DADDD6205748AD5EBD5CB94 /* Sources */,
+				26C5C91B10743EAE07AB1CF9 /* Resources */,
+				826FDC76DF63A14619F44C5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA74BA7C6FBEEBF6D95B8A9D /* PBXTargetDependency */,
+			);
+			name = FRemoconTests_tvOS;
+			productName = FRemoconTests_tvOS;
+			productReference = 087ABCEB3C8AC2517AE1C6A6 /* FRemoconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		753710CF839418C3EC113B25 /* FRemoconTests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E19A7E631FA3721A0A7E91C /* Build configuration list for PBXNativeTarget "FRemoconTests_iOS" */;
+			buildPhases = (
+				6BDA8FDEB8B756D89BA07949 /* Sources */,
+				C8FC0840EED8A4E647BEF77B /* Resources */,
+				F47D4F37756B4AF6B34ED5E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27123DCF8276442914F97E3 /* PBXTargetDependency */,
+			);
+			name = FRemoconTests_iOS;
+			productName = FRemoconTests_iOS;
+			productReference = 362FCC8DCF60CB55179529C3 /* FRemoconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8201F84803F9633F9124D5DA /* FRemocon_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D4C150530C05EC9A8A5B7 /* Build configuration list for PBXNativeTarget "FRemocon_iOS" */;
+			buildPhases = (
+				9AD55CA2AC95FB3F8DFC21F3 /* Sources */,
+				EF9DD526ABF9D108FB25175F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRemocon_iOS;
+			packageProductDependencies = (
+				BAFC7C45133F28CD5A13726B /* FirebaseRemoteConfig */,
+			);
+			productName = FRemocon_iOS;
+			productReference = E24DC704C2CD167466F5D728 /* FRemocon.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF5AD32D0188FE6C6D7F2D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D1C245DBF7E42DB3C63B82D8 /* Build configuration list for PBXProject "FRemocon" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 332767C2A1942F40F14D959C;
+			packageReferences = (
+				C1A594E6FFE095BFE39DD8A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753710CF839418C3EC113B25 /* FRemoconTests_iOS */,
+				416D050C54D385311A5B028D /* FRemoconTests_macOS */,
+				5342FC74210256EB25271419 /* FRemoconTests_tvOS */,
+				8201F84803F9633F9124D5DA /* FRemocon_iOS */,
+				32B8443D1E06BAA9797F4491 /* FRemocon_macOS */,
+				368835AC85C9B62054833492 /* FRemocon_tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C5C91B10743EAE07AB1CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E474F9761AB013EA92A61A80 /* GoogleService-Info.plist in Resources */,
+				7018775A13E32CFB94A285FE /* dummyInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FC0840EED8A4E647BEF77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933BCCF44F7D6A867A2B6B14 /* GoogleService-Info.plist in Resources */,
+				0E0A3C0634891E9D750214FE /* dummyInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533E565275EBD4A6AEAA9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1632AC90ED3FE846837BA86 /* GoogleService-Info.plist in Resources */,
+				DBD4B5B43E541C165A002563 /* dummyInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DADDD6205748AD5EBD5CB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D90ECB76984A721DE23E22 /* Animal.swift in Sources */,
+				92072681237120A79D43B97D /* FRemoconTests.swift in Sources */,
+				6625B39A82650DC012BF0F63 /* FirebaseSetUp.swift in Sources */,
+				A4E0EA27167FD0539460B7D6 /* Fruit.swift in Sources */,
+				2EED08C0CF5DEE149DB8679D /* Number.swift in Sources */,
+				20B809B72A5A5E2FDD5C3C3D /* TestConfigKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5431034F60D9A27EF91BA8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D796DACAB3846BCC63190D /* ConfigBridge.swift in Sources */,
+				C99FE7DF865F377AFFC89885 /* ConfigKey.swift in Sources */,
+				550AA2E47A441D24423DC001 /* ConfigKeys.swift in Sources */,
+				E2AE857CA98DA3AFD781B25D /* ConfigSerializable.swift in Sources */,
+				E827A1DC4F424AA4A5AAD9D5 /* FRemocon+Subscripts.swift in Sources */,
+				5592B0511582797F30420F73 /* FRemocon.swift in Sources */,
+				1E9E7B2CADDCCC6B0E46C953 /* OptionalType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DAB836728395F4A268EDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6CBA8DA3BF65297957B824 /* Animal.swift in Sources */,
+				1DF6B6C47A83B5CB012626BE /* FRemoconTests.swift in Sources */,
+				C8C5025633F34C543E10CAB2 /* FirebaseSetUp.swift in Sources */,
+				76CDCA6DA50DCA2BA89A0D81 /* Fruit.swift in Sources */,
+				96748CAE531741775346E0CE /* Number.swift in Sources */,
+				C9AE04E7AB272A616288D8DF /* TestConfigKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDA8FDEB8B756D89BA07949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176824C0FE2233EFB11BA61F /* Animal.swift in Sources */,
+				AB6AE6A2757FCA1685253493 /* FRemoconTests.swift in Sources */,
+				CCF4E2D4078D42D5EE3F26EE /* FirebaseSetUp.swift in Sources */,
+				8028AF85176338E15192FC18 /* Fruit.swift in Sources */,
+				1F263ACB603527523C9A2762 /* Number.swift in Sources */,
+				25B832980E116CB71C14FF58 /* TestConfigKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD55CA2AC95FB3F8DFC21F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5343BC76D6F2268F1B98A582 /* ConfigBridge.swift in Sources */,
+				5FFD9F7C5B51C91091FF7724 /* ConfigKey.swift in Sources */,
+				83BE98D75F1C58E0962D7250 /* ConfigKeys.swift in Sources */,
+				0153A7882C6384E05A268D32 /* ConfigSerializable.swift in Sources */,
+				19C44D0ADAC620F0CF6F722B /* FRemocon+Subscripts.swift in Sources */,
+				1E76536115F1AE308F5C746B /* FRemocon.swift in Sources */,
+				482FA8B24F4C45BA7782672A /* OptionalType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E798D4F1099C832CF229EE2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDC2DD5F82198ED0AA49170 /* ConfigBridge.swift in Sources */,
+				4777B23DB3F80E52732974DC /* ConfigKey.swift in Sources */,
+				1282A8DA9DFA079EF1B45DE3 /* ConfigKeys.swift in Sources */,
+				EC295D418B96EF075A9FE93C /* ConfigSerializable.swift in Sources */,
+				A688D4E0853CE1FAB289DC06 /* FRemocon+Subscripts.swift in Sources */,
+				A1B3B49D574DE167FE41568A /* FRemocon.swift in Sources */,
+				4C810E5898485F49F00EA038 /* OptionalType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85A20B00013E36E8B2E82E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B8443D1E06BAA9797F4491 /* FRemocon_macOS */;
+			targetProxy = 3C9642D5F7D6DEA729457B38 /* PBXContainerItemProxy */;
+		};
+		A27123DCF8276442914F97E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8201F84803F9633F9124D5DA /* FRemocon_iOS */;
+			targetProxy = 685786D1EF0FC83B6083A17A /* PBXContainerItemProxy */;
+		};
+		AA74BA7C6FBEEBF6D95B8A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368835AC85C9B62054833492 /* FRemocon_tvOS */;
+			targetProxy = D15C9474015680DD81A81A24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C8F0E3C48FFCA62FABE05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemoconTests-tvOS";
+				PRODUCT_NAME = FRemoconTests;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		0CAACF6224A73A6583553A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemocon-tvOS";
+				PRODUCT_NAME = FRemocon;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		32DD4CECBB61C9022813EFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemoconTests-iOS";
+				PRODUCT_NAME = FRemoconTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A288A37E20BD7B20FCAE206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemocon-iOS";
+				PRODUCT_NAME = FRemocon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		67C38CD3DBF79D209A427D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		922D32431680A072082DB8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemocon-iOS";
+				PRODUCT_NAME = FRemocon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		A1DF803CB204B7D79F260FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemocon-macOS";
+				PRODUCT_NAME = FRemocon;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		A295EE4BDB642877FDAB5C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemoconTests-macOS";
+				PRODUCT_NAME = FRemoconTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A8B36752D5BBC237BE2681A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemocon-macOS";
+				PRODUCT_NAME = FRemocon;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BFC6E524598460BA9C886A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemoconTests-iOS";
+				PRODUCT_NAME = FRemoconTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C931930588FFF7DCB7CD04C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemoconTests-macOS";
+				PRODUCT_NAME = FRemoconTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D859DA3EB9F42C273C2CDDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemoconTests-tvOS";
+				PRODUCT_NAME = FRemoconTests;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		F1C509C7B4374C2D5F1EA67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.funzin.FRemocon-tvOS";
+				PRODUCT_NAME = FRemocon;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F6B0E2EEB40F9AD8B6DC160B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074B99B297676BB3FD59789E /* Build configuration list for PBXNativeTarget "FRemocon_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DF803CB204B7D79F260FD1 /* Debug */,
+				A8B36752D5BBC237BE2681A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		356C45857983D9CFA1274FCB /* Build configuration list for PBXNativeTarget "FRemoconTests_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D859DA3EB9F42C273C2CDDF5 /* Debug */,
+				09C8F0E3C48FFCA62FABE05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		445D4C150530C05EC9A8A5B7 /* Build configuration list for PBXNativeTarget "FRemocon_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A288A37E20BD7B20FCAE206 /* Debug */,
+				922D32431680A072082DB8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CDD4DFC29F7DF3C6430BCF9 /* Build configuration list for PBXNativeTarget "FRemoconTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A295EE4BDB642877FDAB5C09 /* Debug */,
+				C931930588FFF7DCB7CD04C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E19A7E631FA3721A0A7E91C /* Build configuration list for PBXNativeTarget "FRemoconTests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC6E524598460BA9C886A40 /* Debug */,
+				32DD4CECBB61C9022813EFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7E4D144DC42757DE02EABE2 /* Build configuration list for PBXNativeTarget "FRemocon_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAACF6224A73A6583553A58 /* Debug */,
+				F1C509C7B4374C2D5F1EA67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1C245DBF7E42DB3C63B82D8 /* Build configuration list for PBXProject "FRemocon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C38CD3DBF79D209A427D65 /* Debug */,
+				F6B0E2EEB40F9AD8B6DC160B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1A594E6FFE095BFE39DD8A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FA5F96C04F2A858B007F3C0 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1A594E6FFE095BFE39DD8A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		A0458043291D6D198A8584FD /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1A594E6FFE095BFE39DD8A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		BAFC7C45133F28CD5A13726B /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1A594E6FFE095BFE39DD8A3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CF5AD32D0188FE6C6D7F2D3 /* Project object */;
+}

@@ -1,0 +1,21 @@
+name: Test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run iOS tests
+      run: xcodebuild build-for-testing test-without-building -scheme FRemocon_iOS -configuration Release -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12 Pro' ENABLE_TESTABILITY=YES 
+    - name: Run Mac tests
+      run: xcodebuild build-for-testing test-without-building -scheme FRemocon_macOS -configuration Release ENABLE_TESTABILITY=YES 
+    - name: Run tvOS tests
+      run: xcodebuild build-for-testing test-without-building -scheme FRemocon_tvOS -configuration Release -sdk appletvsimulator -destination 'platform=tvOS Simulator,name=Apple TV' ENABLE_TESTABILITY=YES 

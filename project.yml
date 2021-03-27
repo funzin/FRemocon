@@ -1,0 +1,38 @@
+minimumXcodeGenVersion: 2.18.0
+name: FRemocon
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: 7.0.0
+options:
+  bundleIdPrefix: com.funzin
+  deploymentTarget: 
+    iOS: "10.0"
+    macOS: "10.12"
+    tvOS: "10.0"
+targets:
+  FRemocon:
+    scheme: {}
+    type: framework.static
+    sources: Sources
+    platform: [iOS, tvOS, macOS]
+    deploymentTarget:
+      iOS: 10.0
+      macOS: 10.12
+      tvOS: 10.0
+    dependencies:
+      - package: Firebase
+        product: FirebaseRemoteConfig
+    scheme:
+      testTargets:
+        - FRemoconTests_${platform}
+
+  FRemoconTests:
+    sources: 
+      - path: Tests
+      - path: Tests/FRemoconTests/Resources
+        buildPhase: resources
+    type: bundle.unit-test
+    platform: [iOS, tvOS, macOS]
+    dependencies:
+      - target: FRemocon_${platform}

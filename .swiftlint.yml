@@ -1,0 +1,11 @@
+included:
+  - Sources
+  - Tests
+excluded:
+  - Pods
+  - Carthage
+disabled_rules:
+  - identifier_name
+  - force_cast
+  - type_name
+line_length: 150

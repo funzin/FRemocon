@@ -1,6 +1,6 @@
 # FRemocon
 <p align="center">
-  <img src="https://github.com/funzin/FRemocon/workflows/Swift/badge.svg" alt="GitHub Action"/>
+  <img src="https://github.com/funzin/FRemocon/workflows/Test/badge.svg" alt="GitHub Action"/>
   <img src="https://img.shields.io/badge/platforms-ios%20%7C%20mac%20%7C%20tvos-blue.svg?style=flat" alt="Platform" />
   <a href="https://developer.apple.com/swift">
     <img src="http://img.shields.io/badge/Swift-5.3-brightgreen.svg?style=flat" alt="Language">
